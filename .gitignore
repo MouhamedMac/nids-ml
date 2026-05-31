@@ -1,0 +1,15 @@
+# Environnement virtuel
+.venv/
+
+# Donnees (a telecharger separement, voir README)
+data/
+
+# Modele entraine (genere par train.py)
+*.joblib
+
+# Images generees
+*.png
+
+# Python
+__pycache__/
+*.pyc
