@@ -7,8 +7,10 @@ data/
 # Modele entraine (genere par train.py)
 *.joblib
 
-# Images generees
+# Images generees (on garde les 2 graphiques du projet)
 *.png
+!matrice_confusion.png
+!importance_features.png
 
 # Python
 __pycache__/

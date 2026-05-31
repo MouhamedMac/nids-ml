@@ -45,6 +45,11 @@ et de prédire si elle est **légitime** ou **malveillante**.
 | Faux positifs | 266 | très peu de fausses alertes |
 | Faux négatifs | 5 031 | attaques inédites non détectées |
 
+<p align="center">
+  <img src="matrice_confusion.png" width="45%" alt="Matrice de confusion"/>
+  <img src="importance_features.png" width="52%" alt="Top 15 des caractéristiques"/>
+</p>
+
 **Top des signaux discriminants appris par le modèle :** volume de données
 échangé (`src_bytes`, `dst_bytes`), état de la connexion TCP (`flag_S0` =
 signature de scan de ports), densité de connexions vers un même service
